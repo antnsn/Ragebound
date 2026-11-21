@@ -8,6 +8,8 @@ Warrior helper for WoW: Forever: a one-click Battle Shout card, warnings for low
 
 Ragebound keeps Battle Shout up and your kit in order: a card when Battle Shout is missing or running out, a warning before your gear breaks, and a warning before your bandages run out.
 
+**Full guide:** https://antnsn.github.io/Ragebound/
+
 **Beta:** Ragebound is new. Spell and item IDs come from Classic and are checked on Forever before 0.1.0; tell us what doesn't work.
 
 ## Battle Shout
@@ -48,7 +50,7 @@ Ragebound keeps Battle Shout up and your kit in order: a card when Battle Shout 
 - **Want a Bound addon for another class?** The shared core, LibBound, has a guide and API reference: https://antnsn.github.io/LibBound/
 
 ## The Bound family
-Ragebound is one of the Bound addons, one per class, built on the same core: Lightbound (paladin), Chronobound (mage), Stormbound (shaman), Packbound (hunter), Spiritbound (priest), Felbound (warlock), Dreambound (druid) and Ragebound (warrior). They look like their class but work the same way, so if you know one, you know them all.
+Ragebound is one of the Bound addons, one per class, built on the same core: Lightbound (paladin), Chronobound (mage), Stormbound (shaman), Packbound (hunter), Spiritbound (priest), Felbound (warlock), Dreambound (druid), Ragebound (warrior) and Shadowbound (rogue). They look like their class but work the same way, so if you know one, you know them all.
 
 ## Changelog
 <!-- changelog:start -->
