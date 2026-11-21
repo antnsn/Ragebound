@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0 beta 3
+
+- **Rage bar**: your rage in a bar of its own (Marius' painted bar with the axe head), the number on it, a glowing line at the fill's end and a glow at full rage. Horizontal or vertical, movable and resizable; settings on the new Rage bar page. The Blizzard and Flat skins get a plain bar.
+
 ## 0.1.0 beta 2
 
 - The bandage card is called **Low on bandages** now: "Bandages running low" was cut off.

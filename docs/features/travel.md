@@ -1,7 +1,7 @@
 ---
 title: Travel panel
 parent: Features
-nav_order: 6
+nav_order: 7
 description: Your Hearthstone beside the game menu.
 ---
 

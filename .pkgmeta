@@ -16,6 +16,7 @@ ignore:
   - docs
   - tests
   - tools
+  - art
   - .luacheckrc
   - wowbench.toml
   - CLAUDE.md

@@ -31,6 +31,7 @@ Ragebound watches all of that. It shows a card when Battle Shout is missing or a
 - **Gear durability.** A card when an equipped item drops to 25% or less, in red once something is broken. [More](features/durability.html)
 - **Weapon stone.** Off by default. A card when your main hand has no stone on it. Click it to use your best sharpening or weighted stone. [More](features/weapon-stone.html)
 - **Bandages.** A card when you carry fewer than 5 bandages, once you know First Aid. [More](features/bandages.html)
+- **Rage bar.** Your rage in a bar of its own, horizontal or vertical, with a glow at full rage. [More](features/rage-bar.html)
 - **Buff key.** Out of combat, each press does what a card asks for. [More](features/buff-key.html)
 - **Travel panel.** Press Escape: your Hearthstone sits beside the game menu. [More](features/travel.html)
 - **Well-Rested and Well Fed.** A warning and a countdown before they run out. [More](features/well-rested-and-well-fed.html)

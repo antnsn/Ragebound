@@ -42,5 +42,7 @@ end
 ns.optionPages[#ns.optionPages + 1] = BuffPage
 ns.optionPages[#ns.optionPages + 1] = GearPage
 ns.optionPages[#ns.optionPages + 1] = BandagePage
+-- the rage bar (LibBound): Marius' bar with the axe head
+Bound.InstallPowerBar(ns, { power = 1, title = "Rage bar", noun = "rage" })
 ns.optionPages[#ns.optionPages + 1] = TravelPage
 Bound.InstallOptions(ns, { header = "Warrior helper", launcher = "Warrior helper: Battle Shout, gear, bandages." })

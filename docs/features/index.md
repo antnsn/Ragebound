@@ -13,6 +13,7 @@ Ragebound does a few small warrior jobs for you. Each page below covers one of t
 - [Gear durability](durability.html): a card when an equipped item is worn down, in red once something is broken.
 - [Weapon stone](weapon-stone.html): a card when your main hand has no stone on it. Click to use your best one. Off by default.
 - [Bandages](bandages.html): a card when you carry fewer than 5 bandages, once you know First Aid.
+- [Rage bar](rage-bar.html): your rage in a bar of its own, horizontal or vertical, with a glow at full rage.
 - [Buff key](buff-key.html): one key that does what a card asks for.
 - [Travel panel](travel.html): your Hearthstone beside the game menu.
 - [Well-Rested and Well Fed](well-rested-and-well-fed.html): a warning and a countdown before they run out.
