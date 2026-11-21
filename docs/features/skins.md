@@ -1,7 +1,7 @@
 ---
 title: Skins
 parent: Features
-nav_order: 10
+nav_order: 11
 description: Pick how Ragebound looks, Rage, classic Blizzard or flat.
 ---
 

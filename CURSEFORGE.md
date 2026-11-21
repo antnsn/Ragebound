@@ -1,5 +1,5 @@
 <!-- summary (CurseForge "Summary" field, at most 256 characters):
-Warrior helper for WoW: Forever: a one-click Battle Shout card, warnings for low or broken gear and low bandages, an optional card that puts your best sharpening or weighted stone on your weapon, and your Hearthstone beside the Escape menu.
+Warrior helper for WoW: Forever: a one-click Battle Shout card, a rage bar (horizontal or vertical), warnings for low or broken gear and low bandages, an optional card that puts your best stone on your weapon, and your Hearthstone beside the Escape menu.
 -->
 
 # Ragebound
@@ -22,6 +22,11 @@ Ragebound keeps Battle Shout up and your kit in order: a card when Battle Shout 
 
 ## Bandages
 - Says when you carry fewer than 5 bandages (you pick the number), once you know First Aid. Every cloth bandage counts.
+
+## Rage bar
+- **Your rage in a bar of its own**, with the number on it and a glow at full rage. Shown while you have rage or are in combat.
+- **Horizontal or vertical**, movable and resizable like the cards.
+- Painted in the Rage skin; a plain bar in the Blizzard and Flat skins.
 
 ## Travel
 - **Press Escape**: beside the game menu you get your Hearthstone.

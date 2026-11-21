@@ -31,7 +31,7 @@ Ragebound only loads on warriors. On any other character it turns itself off for
 
 Type `/rage` in chat, or click the Ragebound button on your minimap.
 
-The options window has six pages on the left: **Buffs**, **Gear**, **Bandages**, **Travel**, **Extras** and **Skin**. Everything is on by default except the weapon stone card.
+The options window has seven pages on the left: **Buffs**, **Gear**, **Bandages**, **Rage bar**, **Travel**, **Extras** and **Skin**. Everything is on by default except the weapon stone card.
 
 The default skin, Rage, is dark iron with a blood-red edge. See [Skins](features/skins.html).
 

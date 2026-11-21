@@ -1,7 +1,7 @@
 ---
 title: Buff key
 parent: Features
-nav_order: 5
+nav_order: 6
 description: One key that does what a card asks for, out of combat.
 ---
 

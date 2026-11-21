@@ -13,6 +13,7 @@ Full guide: https://antnsn.github.io/Ragebound/
 - **Weapon stone** (off by default): a card when your main hand has no stone on it. Click it to use
   your best sharpening stone (blades) or weighted stone (maces, staves).
 - **Bandages**: a card when you carry fewer than 5 bandages, once you know First Aid.
+- **Rage bar**: your rage in a bar of its own, horizontal or vertical, with a glow at full rage.
 - **Travel**: press Escape, and beside the game menu you get your Hearthstone.
 - **Buff key** (Extras page): out of combat, each press casts the next thing a card asks for.
 - **Well-Rested and Well Fed** timers, plain-word explanations in tooltips, movable frames

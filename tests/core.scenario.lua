@@ -8,7 +8,7 @@ if wb.mood == "warrior" then
 	wb.check(wb.shown("RageboundOptions"), "/rage opens the options")
 	local titles = {}
 	for _, p in ipairs(wb.ns.optionsState.pages) do titles[#titles + 1] = p.title end
-	wb.expect("pages", table.concat(titles, ", "), "Buffs, Gear, Bandages, Travel, Extras, Skin")
+	wb.expect("pages", table.concat(titles, ", "), "Buffs, Gear, Bandages, Rage bar, Travel, Extras, Skin")
 	wb.check(wb.ns.travel ~= nil, "the travel panel (Hearthstone only) is installed")
 else
 	wb.state.player.classFile, wb.state.player.class = "MAGE", "Mage"
