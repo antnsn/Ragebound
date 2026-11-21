@@ -4,4 +4,4 @@ std = "lua51"
 max_line_length = false
 ignore = { "212", "432" }
 exclude_files = { "Libs/", "tests/", "tools/" }
-read_globals = { "C_Item", "C_Timer", "CreateFrame", "GetInventoryItemDurability", "GetInventoryItemID", "GetInventoryItemTexture", "GetWeaponEnchantInfo", "InCombatLockdown", "LibStub", "UnitLevel" }
+read_globals = { "C_Item", "C_Timer", "CreateFrame", "GetInventoryItemDurability", "GetInventoryItemID", "GetInventoryItemTexture", "GetWeaponEnchantInfo", "InCombatLockdown", "LibStub", "UnitLevel", "UnitPower" }

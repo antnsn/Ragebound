@@ -44,8 +44,10 @@ for _, t in ipairs({ { "battleShout", -250, 200, true } }) do
 	local kv = { Timer(t[1], t[2], t[3], t[4]) }
 	for i = 1, #kv, 2 do defaults[kv[i]] = kv[i + 1] end
 end
--- Battle Shout lasts 2 minutes: warn with 30 seconds left, not at the start
+-- Battle Shout lasts 2 minutes: warn with 30 seconds left, not at the start. It is shouted in
+-- the fight (rage), so by default the card only shows in combat
 defaults.battleShoutMinutes = 0.5
+defaults.battleShoutCombat = true
 
 ns.disabled = Bound:NewAddon(addonName, ns, {
 	class = "WARRIOR",
