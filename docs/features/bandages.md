@@ -13,7 +13,7 @@ Bandages heal you between pulls, so running out hurts. Ragebound counts them for
 
 ![The bandage card]({{ '/screenshots/frames/bdpoint.png' | relative_url }})
 
-- **Running low.** When you carry fewer than 5 bandages, a **Bandages running low** card shows how many are left, for example `Bandages: 3`.
+- **Running low.** When you carry fewer than 5 bandages, a **Low on bandages** card shows how many are left, for example `Bandages: 3`.
 - **None left.** At 0 the count turns red.
 - **Only with First Aid.** Until you know First Aid, there is no card.
 - **Cloth bandages count.** Every bandage made from cloth counts, from Linen Bandage to Heavy Runecloth Bandage.
