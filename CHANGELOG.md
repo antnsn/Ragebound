@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- **Battle Shout in combat**: you shout in the fight, so the card now shows only in combat by default, says **Missing: 10 rage**, and glows once you have the rage. A shout cast mid-fight is seen through the cast (the game hides buffs in combat) and counted down from there. Untick **Only in combat** on the Buffs page for the old out-of-combat card.
+
 ## 0.1.0 beta 3
 
 - **Rage bar**: your rage in a bar of its own (Marius' painted bar with the axe head), the number on it, a glowing line at the fill's end and a glow at full rage. Horizontal or vertical, movable and resizable; settings on the new Rage bar page. The Blizzard and Flat skins get a plain bar.

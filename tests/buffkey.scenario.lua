@@ -6,7 +6,7 @@ local m = wb.mood
 T.warrior({ 6673 })
 local s = wb.state
 if m ~= "self" then s.auras.player = { { name = "Battle Shout", spellId = 6673, duration = 120, expirationTime = 9999999, sourceUnit = "player" } } end
-local db = {}
+local db = { battleShoutCombat = false } -- the out-of-combat Battle Shout card, which the key casts
 if m == "stone" then
 	db.stone = true
 	T.weapon(1000, 7)

@@ -13,8 +13,10 @@ local function BuffPage(UI)
 		UI.DBToggle(p, third, p.y, third, b.key .. "Sound", "Sound")
 		UI.DBToggle(p, third * 2, p.y, third, b.key .. "Keep", "When missing", nil, function() ns.UpdateBuffTimers() end)
 		p:Add(34)
+		p:Add(select(2, UI.DBToggle(p, 0, p.y, W, b.key .. "Combat", "Only in combat",
+			"You shout in the fight: out of combat the card stays quiet.", function() ns.UpdateBuffTimers() end)) + 6)
 	end
-	p:Add(UI.Note(p, p.y, "Battle Shout costs 10 rage: out of combat you may need to build rage first."))
+	p:Add(UI.Note(p, p.y, "In combat the card is a reminder (it glows once you have the rage): cast from your bars."))
 end
 
 local function GearPage(UI)

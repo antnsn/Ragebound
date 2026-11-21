@@ -2,20 +2,23 @@
 title: Battle Shout
 parent: Features
 nav_order: 1
-description: A card when Battle Shout is missing or has 30 seconds left. Click it to cast.
+description: A card in combat when Battle Shout is missing or has 30 seconds left. It glows once you have the rage.
 ---
 
 # Battle Shout
 
-Battle Shout lasts 2 minutes, so it drops all the time. Ragebound watches it on you. When it runs low or drops off, a card shows up, and one click puts it back.
+Battle Shout lasts 2 minutes (3 with Booming Voice), so it drops all the time, and you shout it in the fight, where you have rage. Ragebound watches it on you. In combat, when it runs low or drops off, a card shows up and glows once you have the 10 rage for it.
 
 ## What it does
 
 ![The Battle Shout card]({{ '/screenshots/frames/battleshoutpoint.png' | relative_url }})
 
-- **Running out.** With 30 seconds left, a message shows in the middle of the screen and in chat, and a card appears with a countdown. The message rounds up to whole minutes, so it reads `Battle Shout: 1 min left`.
-- **Gone.** When Battle Shout is missing, the card shows **Missing: click to cast (10 rage)**, faded, with the text in red. Once, out of combat and while you are alive, a message says `Battle Shout is gone, rebuff`.
-- **Click to cast.** Out of combat, click the card and Ragebound casts the highest rank of Battle Shout you know.
+- **Only in combat.** By default the card and its messages show only during a fight. Out of combat, with no rage, it stays quiet.
+- **Running out.** With 30 seconds left, a message shows in the middle of the screen and in chat (`Battle Shout: 25 sec left`), and a card appears with a countdown. If the fight starts with less than 30 seconds left, you get them as it starts.
+- **Gone.** When Battle Shout is missing, the card shows **Missing: 10 rage**, faded, with the text in red.
+- **Glows when you can shout.** In combat the card glows once you have 10 rage. Shout from your action bars: the game doesn't let addons cast for you in combat.
+- **Shouted in the fight.** The game hides your buffs from addons in combat, so Ragebound sees your shout through the cast itself and counts down from there. It remembers how long your shout lasted the last time it could read it (2 or 3 minutes).
+- **Out of combat (option).** Untick **Only in combat** and the card works out of combat as well: **Missing: click to cast (10 rage)**, click it to cast the highest rank you know, and once, while you are alive, a message says `Battle Shout is gone, rebuff`.
 - **Any Battle Shout counts.** The card looks for Battle Shout on you, so one from another warrior counts too.
 - **Only you.** Battle Shout also buffs your party, but the card only watches your own buffs.
 - **Not learned, not shown.** Until you know Battle Shout, there is no card and no warning.
@@ -24,8 +27,8 @@ The card goes away as soon as Battle Shout is back on you.
 
 ## How to use it
 
-1. Play as usual. Nothing shows while Battle Shout has more than 30 seconds left.
-2. When the card shows, click it out of combat. Hover over it first if you want to see what it will cast.
+1. Play as usual. Nothing shows out of combat, or while Battle Shout has more than 30 seconds left.
+2. When the card shows in a fight and glows, shout.
 3. Don't want it watched? Open `/rage`, page **Buffs**, and untick **Show** under Battle Shout.
 
 To move the card, see [Frames and minimap](frames-and-minimap.html).
@@ -40,21 +43,19 @@ In `/rage`, page **Buffs**, section **Battle Shout**:
 | --- | --- | --- |
 | Show | On | Watches Battle Shout at all. Off means no card and no messages. |
 | Sound | Off | Plays the raid warning sound with the messages. |
-| When missing | On | Shows the **Missing** card and the one-time "is gone, rebuff" message when Battle Shout is gone. Off: you only get the warning and countdown before it runs out. |
+| When missing | On | Shows the **Missing** card when Battle Shout is gone (and, out of combat, the one-time "is gone, rebuff" message). Off: you only get the warning and countdown before it runs out. |
+| Only in combat | On | The card and messages only during a fight. Off: also out of combat, where a click casts it. |
 
 ## Good to know
 
-**I clicked the card and nothing happened.**
-Battle Shout costs 10 rage. Out of combat you often have none, so build some rage first, for example by attacking something. The game then lets the cast through.
-
 **Can I click the card in combat?**
-No. The game does not let addons cast for you in combat, so the click only works out of combat. The card stays visible, so you know what to do after the fight.
+No. The game does not let addons cast for you in combat. In combat the card is a reminder; shout from your action bars.
+
+**I clicked the card out of combat and nothing happened.** (Only in combat off)
+Battle Shout costs 10 rage. Out of combat you often have none, so build some rage first. The game then lets the cast through.
 
 **Can I change the 30 seconds?**
 No. The time is fixed. Well-Rested and Well Fed have a slider (see [Well-Rested and Well Fed](well-rested-and-well-fed.html)).
-
-**The message says 1 min left, but the countdown says 0:30.**
-The message rounds to whole minutes and never shows less than 1. The countdown on the card shows the real time left.
 
 **I turned When missing off and now the card never shows for a missing Battle Shout.**
 That is what the switch does. With it off, the card only shows for the last 30 seconds. The [buff key](buff-key.html) also skips a missing Battle Shout then, since it does what the cards ask for.

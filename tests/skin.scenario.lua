@@ -1,7 +1,7 @@
 --@moods: rage blizzard flat
 local T = dofile(wb.dir .. "/tests/_warrior.lua")
 T.warrior({ 6673 })
-wb.login({ saved = { RageboundDB = { skin = wb.mood } } })
+wb.login({ saved = { RageboundDB = { skin = wb.mood, battleShoutCombat = false } } })
 wb.advance(7)
 local want = ({ rage = "Rage", blizzard = "Blizzard", flat = "Flat" })[wb.mood]
 wb.expect("active skin", wb.ns.UI.Active().name, want)
