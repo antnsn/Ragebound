@@ -25,6 +25,20 @@ elseif m == "expiring" then
 	wb.expect("card with 30 seconds or less left", shout, true)
 	wb.check(card.statusText:GetText():find("left", 1, true), "counts down")
 	wb.check(T.macroFor("Battle Shout"), "a click casts Battle Shout")
+	wb.check(wb.printed("Battle Shout: %d+ sec left"), "the warning counts seconds under a minute")
+	wb.check(not wb.printed("Battle Shout: 1 min left"), "not \"1 min\" with 20 seconds left")
+	-- the Extras page: Ragebound has no group buff, so the buff key note doesn't promise one
+	wb.slash("/rage")
+	local opt = wb.ns.optionsState
+	for i, pg in ipairs(opt.pages) do if pg.title == "Extras" then opt.Select(i) end end
+	local text = ""
+	for _, pg in ipairs(opt.pages) do
+		if pg.title == "Extras" then
+			for _, r in ipairs({ pg.frame:GetRegions() }) do if r.GetText and r:GetText() then text = text .. r:GetText() .. "|" end end
+		end
+	end
+	wb.check(text:find("next thing a card asks for", 1, true) ~= nil, "the Extras note explains the key")
+	wb.check(not text:find("group buff", 1, true), "and promises no group buff Ragebound doesn't have")
 else
 	wb.expect("card when missing", shout, true)
 	wb.check(card.statusText:GetText():find("10 rage", 1, true), "says it costs rage")
