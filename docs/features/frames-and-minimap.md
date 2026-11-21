@@ -13,6 +13,8 @@ Put every Ragebound frame exactly where you want it, and open the options from t
 
 ### Moving and resizing frames
 
+![Unlocked frames with the grid]({{ '/screenshots/frames-unlocked.png' | relative_url }})
+
 - Ragebound has six frames: the [Battle Shout card](battle-shout.html), the [durability card](durability.html), the [weapon stone card](weapon-stone.html), the [bandages card](bandages.html), and the [Well-Rested and Well Fed](well-rested-and-well-fed.html) cards.
 - Unlocking shows **every** frame, with sample content, so you can place frames that are normally hidden. This includes the weapon stone card, even while it is turned off.
 - Drag a frame to move it. Frames snap to a grid around the center of your screen. Hold **Shift** while dragging to place a frame freely.

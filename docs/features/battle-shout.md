@@ -11,6 +11,8 @@ Battle Shout lasts 2 minutes, so it drops all the time. Ragebound watches it on 
 
 ## What it does
 
+![The Battle Shout card]({{ '/screenshots/frames/battleshoutpoint.png' | relative_url }})
+
 - **Running out.** With 30 seconds left, a message shows in the middle of the screen and in chat, and a card appears with a countdown. The message rounds up to whole minutes, so it reads `Battle Shout: 1 min left`.
 - **Gone.** When Battle Shout is missing, the card shows **Missing: click to cast (10 rage)**, faded, with the text in red. Once, out of combat and while you are alive, a message says `Battle Shout is gone, rebuff`.
 - **Click to cast.** Out of combat, click the card and Ragebound casts the highest rank of Battle Shout you know.
@@ -29,6 +31,8 @@ The card goes away as soon as Battle Shout is back on you.
 To move the card, see [Frames and minimap](frames-and-minimap.html).
 
 ## Settings
+
+![The Buffs page]({{ '/screenshots/options-buffs.png' | relative_url }})
 
 In `/rage`, page **Buffs**, section **Battle Shout**:
 

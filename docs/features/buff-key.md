@@ -28,6 +28,8 @@ Ragebound has no group buff for the key. Battle Shout reaches your party when yo
 
 ## Settings
 
+![The Extras page with the buff key]({{ '/screenshots/options-extras.png' | relative_url }})
+
 In `/rage`, page **Extras**, section **Buff key**:
 
 | Setting | Default | What it does |
