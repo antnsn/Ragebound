@@ -3,7 +3,9 @@
 # Ragebound
 
 A warrior helper for **WoW: Forever**, part of the Bound family: one addon per class on the same
-core (Lightbound, Chronobound, Stormbound, Packbound, Spiritbound, Felbound, Dreambound, Ragebound).
+core (Lightbound, Chronobound, Stormbound, Packbound, Spiritbound, Felbound, Dreambound, Ragebound, Shadowbound).
+
+Full guide: https://antnsn.github.io/Ragebound/
 
 - **Battle Shout**: a card when it is missing or running out. Click it to cast (it costs 10 rage).
 - **Durability**: a card when an equipped item drops to 25% or less (you pick the percentage),
