@@ -4,6 +4,7 @@
 ## X-License: GPL-3.0-or-later
 ## Author: Rheolux
 ## Version: @project-version@
+## X-Curse-Project-ID: 1822239
 ## IconTexture: Interface\AddOns\Ragebound\Media\Icon64
 ## SavedVariables: RageboundDB
 
