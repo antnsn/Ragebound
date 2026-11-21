@@ -20,6 +20,7 @@ else
 	local want = ({ few = "Bandages: 2", none = "Bandages: 0", mixed = "Bandages: 3", rank = "Bandages: 2",
 		combat = "Bandages: 2" })[m]
 	wb.expect("counts every bandage", card.statusText:GetText(), want)
+	wb.expect("a title that fits the card", card.titleText:GetText(), "Low on bandages")
 end
 if m == "combat" then
 	wb.combat(true)

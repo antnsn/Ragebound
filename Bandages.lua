@@ -37,7 +37,7 @@ function M:Init()
 	card = ns.MakeCard("RageboundBandagesFrame")
 	local ok, tex = pcall(C_Item.GetItemIconByID, D.bandages[1])
 	card:SetIcon((ok and not ns.IsSecret(tex) and tex) or 133688)
-	card:SetTitle("Bandages running low")
+	card:SetTitle("Low on bandages") -- "Bandages running low" was cut off
 	card:SetExplain(ns.Help.bandages)
 	ns.MakeMovable(card, "bdPoint")
 	ns.ApplyPoint(card, "bdPoint")
