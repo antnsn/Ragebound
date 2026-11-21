@@ -1,8 +1,9 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 beta 4
 
 - **Battle Shout in combat**: you shout in the fight, so the card now shows only in combat by default, says **Missing: 10 rage**, and glows once you have the rage. A shout cast mid-fight is seen through the cast (the game hides buffs in combat) and counted down from there. Untick **Only in combat** on the Buffs page for the old out-of-combat card.
+- Built on the latest LibBound, the shared core of the Bound addons, with its small fixes. Published on CurseForge straight from GitHub now.
 
 ## 0.1.0 beta 3
 
