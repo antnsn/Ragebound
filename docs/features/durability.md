@@ -11,6 +11,8 @@ Gear wears down as you fight and die. Ragebound tells you when an item gets low,
 
 ## What it does
 
+![The gear card]({{ '/screenshots/frames/dupoint.png' | relative_url }})
+
 - **Worn down.** When any equipped item drops to 25% durability or less, a **Repair your gear** card shows up.
 - **Names the worst item.** The card shows the item with the lowest durability and its percentage, for example `Legs 18%`. The icon is that item's own icon.
 - **Broken.** At 0% the card says, for example, `Chest is broken`, in red.
@@ -26,6 +28,8 @@ The card goes away once every item is above the warning percentage again. It is 
 3. Want an earlier or later warning? Open `/rage`, page **Gear**, and move the **Warn at** slider.
 
 ## Settings
+
+![The Gear page]({{ '/screenshots/options-gear.png' | relative_url }})
 
 In `/rage`, page **Gear**, section **Durability**:
 

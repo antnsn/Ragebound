@@ -11,6 +11,8 @@ A sharpening stone or weighted stone adds damage to your weapon for 30 minutes. 
 
 ## What it does
 
+![The weapon stone card]({{ '/screenshots/frames/stpoint.png' | relative_url }})
+
 - **No stone.** When your main-hand weapon has no temporary enchant, a **Weapon stone** card shows up.
 - **The right kind.** Ragebound looks at your main-hand weapon:
 
@@ -33,6 +35,8 @@ The card goes away as soon as the main hand has an enchant again.
 3. When the card shows, click it out of combat.
 
 ## Settings
+
+![The Gear page]({{ '/screenshots/options-gear.png' | relative_url }})
 
 In `/rage`, page **Gear**, section **Weapon stone**:
 

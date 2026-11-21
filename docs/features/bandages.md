@@ -11,6 +11,8 @@ Bandages heal you between pulls, so running out hurts. Ragebound counts them for
 
 ## What it does
 
+![The bandage card]({{ '/screenshots/frames/bdpoint.png' | relative_url }})
+
 - **Running low.** When you carry fewer than 5 bandages, a **Bandages running low** card shows how many are left, for example `Bandages: 3`.
 - **None left.** At 0 the count turns red.
 - **Only with First Aid.** Until you know First Aid, there is no card.
@@ -26,6 +28,8 @@ The card goes away once you carry enough bandages again. It is a reminder only: 
 3. Want a different number? Open `/rage`, page **Bandages**, and move the **Warn below** slider.
 
 ## Settings
+
+![The Bandages page]({{ '/screenshots/options-bandages.png' | relative_url }})
 
 In `/rage`, page **Bandages**:
 
