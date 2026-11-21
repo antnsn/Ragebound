@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "Ragebound",
+  "project_id": "3318bdcf-d8b7-4604-8713-8b7b8b674e36"
+}
