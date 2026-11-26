@@ -60,6 +60,11 @@ Ragebound is one of the Bound addons, one per class, built on the same core: Lig
 
 ## Changelog
 <!-- changelog:start -->
+### 0.1.0 beta 5
+
+- **Carrot on a Stick** (Extras page, off by default): put it on when you mount, in the trinket slot you pick, and your own trinket back when you get off. Not in instances; in combat it waits until the fight is over. From LibBound, the same as in Lightbound.
+- The Extras page is tidier: the Well-Rested and Well Fed switches sit in one row each.
+
 ### 0.1.0 beta 4
 
 - **Battle Shout in combat**: you shout in the fight, so the card now shows only in combat by default, says **Missing: 10 rage**, and glows once you have the rage. A shout cast mid-fight is seen through the cast (the game hides buffs in combat) and counted down from there. Untick **Only in combat** on the Buffs page for the old out-of-combat card.
