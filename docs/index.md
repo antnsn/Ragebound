@@ -16,9 +16,6 @@ The warrior helper for World of Warcraft: Forever.
 
 ---
 
-{: .note }
-Ragebound is a first beta. Spell and item IDs come from Classic and are being checked on Forever. Tell us what doesn't work.
-
 ## Why Ragebound exists
 
 A warrior has a short list of chores. Battle Shout lasts 2 minutes and drops all the time. Gear wears down until something breaks in the middle of a dungeon. Bandages run out right when you need one. A sharpening stone wears off after 30 minutes.

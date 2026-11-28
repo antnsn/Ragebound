@@ -10,8 +10,6 @@ Ragebound keeps Battle Shout up and your kit in order: a card when Battle Shout 
 
 **Full guide:** https://antnsn.github.io/Ragebound/
 
-**Beta:** Ragebound is new. Spell and item IDs come from Classic and are checked on Forever before 0.1.0; tell us what doesn't work.
-
 ## Battle Shout
 - A card when **Battle Shout** is missing or has 30 seconds left. Click it to cast the best rank you know.
 - It costs 10 rage, so out of combat you may need to build rage first.
@@ -60,6 +58,10 @@ Ragebound is one of the Bound addons, one per class, built on the same core: Lig
 
 ## Changelog
 <!-- changelog:start -->
+### 0.1.0
+
+- The weapon stone card now comes from LibBound, so Lightbound has it too. Your settings stay as they are.
+
 ### 0.1.0 beta 5
 
 - **Carrot on a Stick** (Extras page, off by default): put it on when you mount, in the trinket slot you pick, and your own trinket back when you get off. Not in instances; in combat it waits until the fight is over. From LibBound, the same as in Lightbound.

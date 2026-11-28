@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0
 
 - The weapon stone card now comes from LibBound, so Lightbound has it too. Your settings stay as they are.
 
