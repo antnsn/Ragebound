@@ -25,8 +25,7 @@ local function GearPage(UI)
 	p:Add(UI.Section(p, p.y - 4, "Durability") + 2)
 	p:Add(select(2, UI.DBToggle(p, 0, p.y, W, "durability", "Warn when an item's durability runs low", "Out of combat. A broken item (0%) is shown in red.")) + 6)
 	p:Add(select(2, UI.Slider(p, p.y, "Warn at", "durabilityLow", 5, 75, 5, "%")) + 8)
-	p:Add(UI.Section(p, p.y - 4, "Weapon stone") + 2)
-	p:Add(select(2, UI.DBToggle(p, 0, p.y, W, "stone", "Show when your main hand has no stone", "A click uses the best sharpening stone (blades) or weighted stone (maces, staves) in your bags.")) + 8)
+	ns.WeaponStoneOptions(p, UI)
 end
 
 local function BandagePage(UI)
