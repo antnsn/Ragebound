@@ -13,15 +13,6 @@ ns.DATA = {
 	-- Linen, Heavy Linen, Wool, Heavy Wool, Silk, Heavy Silk, Mageweave, Heavy Mageweave,
 	-- Runecloth, Heavy Runecloth
 	bandages = { 1251, 2581, 3530, 3531, 6450, 6451, 8544, 8545, 14529, 14530 },
-	-- Rough, Coarse, Heavy, Solid, Dense
-	sharpening = { 2862, 2863, 2871, 7964, 12404 },
-	weighted = { 3239, 3240, 3241, 7965, 12643 },
-	stoneNames = {
-		[2862] = "Rough Sharpening Stone", [2863] = "Coarse Sharpening Stone", [2871] = "Heavy Sharpening Stone",
-		[7964] = "Solid Sharpening Stone", [12404] = "Dense Sharpening Stone",
-		[3239] = "Rough Weighted Stone", [3240] = "Coarse Weighted Stone", [3241] = "Heavy Weighted Stone",
-		[7965] = "Solid Weighted Stone", [12643] = "Dense Weighted Stone",
-	},
 }
 
 local function Timer(key, x, y, keep)
@@ -32,8 +23,6 @@ local defaults = {
 	skin = "rage",
 	durability = true, durabilityLow = 25,
 	duPoint = { "CENTER", "UIParent", "CENTER", 250, 200 },
-	stone = false,
-	stPoint = { "CENTER", "UIParent", "CENTER", 250, 140 },
 	bandages = true, bandageLow = 5,
 	bdPoint = { "CENTER", "UIParent", "CENTER", 250, 80 },
 	wrPoint = { "CENTER", "UIParent", "CENTER", 0, 320 },

@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- The weapon stone card now comes from LibBound, so Lightbound has it too. Your settings stay as they are.
+
 ## 0.1.0 beta 5
 
 - **Carrot on a Stick** (Extras page, off by default): put it on when you mount, in the trinket slot you pick, and your own trinket back when you get off. Not in instances; in combat it waits until the fight is over. From LibBound, the same as in Lightbound.
